@@ -27,7 +27,6 @@ namespace BellApp.Models
         [Required(ErrorMessage = "Please Enter Email Address")]
         public string EmailAddress { get; set; }
 
-
         [Required(ErrorMessage = "You must provide a phone number")]
         [Display(Name = "Phone Number")]
         [DataType(DataType.PhoneNumber)]
